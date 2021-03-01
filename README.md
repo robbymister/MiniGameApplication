@@ -1,2 +1,2 @@
 # MiniGameApplication
-Small web application written in mostly PHP, HTML and CSS. Includes a Guess Game, Rock Paper Scissors and a Frog Puzzle Game.
+Small web application written in mostly PHP, HTML and CSS. Includes a Guess Game, Rock Paper Scissors and a Frog Puzzle Game. This uses an MVC design pattern. The database uses PostgreSQL and the schema for it can be viewed in the schema.sql file. All the SQL queries were prepared and can be seen used in the lib.php file. May improve over time and include pictures of the project for preview.
