@@ -1,0 +1,240 @@
+body {
+	margin: 10px;
+	border: 1px solid gray;
+}
+
+h1 {
+	color: #111;
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-size: 2em; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1;
+}
+
+input[type=text], input[type=password], input[type=date] {
+	padding:5px; 
+	border:2px solid #ccc; 
+	border-radius: 5px;
+}
+
+input[type=submit] {
+	padding:5px 15px;
+	background:#ccc; 
+	border:0 none;
+	cursor:pointer;
+	border-radius: 5px; 
+}
+
+input[type=submit]:hover {
+	background:white;
+	border: 1px solid black; 
+}
+
+@media screen and (max-width: 850px) {
+	.container {
+		margin: 10px;
+	}
+
+	.container li a {
+		display: block;
+		color: white;
+		padding: 8px 16px;
+		background-color: gray;
+		text-decoration: none;
+		border-radius: 12px;
+	}
+
+	.container li a:hover {
+		background-color: lightgray;
+	}
+
+	.container ul {
+		list-style-type: none;
+		margin: 5px;
+		padding: 0;
+	}
+
+	.container li {
+		margin: 10px;
+		text-align: center;
+	}
+
+	.stats {
+		margin: 10px;
+	}
+
+	.game {
+		margin: 10px;
+	}
+
+	.frogsContainer ul {
+		list-style-type: none;
+		margin: 5px;
+		padding: 0;
+	}
+
+	.frogsContainer button {
+		color: white;
+		background-color: white;
+		border: none;
+	}
+
+	.frogsContainer li {
+		display: block;
+		padding: 8px 16px;
+		text-decoration: none;
+	}
+
+	.frogsElement {
+		display: block;
+		max-width: 25%;
+		min-width: 100px;
+		max-height: 100px;
+	}
+
+	.rpsContainer ul {
+		list-style-type: none;
+		margin: 5px;
+		padding: 0;
+	}
+
+	.rpsContainer button {
+		color: white;
+		background-color: white;
+		border: none;
+	}
+
+	.rpsContainer li {
+		display: block;
+		padding: 8px 16px;
+		text-decoration: none;
+	}
+
+	.rpsElement {
+		display: block;
+		max-width: 25%;
+		min-width: 100px;
+		max-height: 100px;
+	}
+}
+
+@media screen and (min-width: 850px) {
+	.container {
+		margin: 10px;
+	}
+
+	.container li a {
+		position: relative;
+		display: inline-block;
+		color: white;
+		padding: 8px 16px;
+		background-color: gray;
+		text-decoration: none;
+		flex-wrap: nowrap;
+		margin: 0 auto;
+		overflow: hidden;
+		width: 75%;
+		border-radius: 12px;
+	}
+
+	.container li a:hover {
+		background-color: lightgray;
+	}
+
+	.container ul {
+		list-style-type: none;
+		padding-inline-end: 40px;
+		padding-inline-start: 40px;
+	}
+
+	.container li {
+		text-align: center;
+		display: inline-block;
+		color: white;
+		width: 15%;
+		margin: 5px;
+	}
+
+	.stats {
+		margin: 10px;
+		border: 1px solid gray;
+		float: right;
+		width: 20%;
+	}
+
+	.mainDiv {
+		height: auto;
+		overflow: auto;
+	}
+
+	.game {
+		margin: 10px;
+		float: left;
+		width: 60%;
+	}
+
+	.frogsContainer ul {
+		list-style-type: none;
+		margin: 5px;
+		padding: 0;
+	}
+
+	.frogsContainer button {
+		color: white;
+		background-color: white;
+		border: none;
+	}
+
+	.frogsContainer li {
+		display: inline-block;
+		width: 10%;
+	}
+
+	.frogsElement {
+		width: 100%;
+		position: relative;
+		display: inline-block;
+		flex-wrap: nowrap;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	.rpsContainer ul {
+		list-style-type: none;
+		margin: 5px;
+		padding: 0;
+	}
+
+	.rpsContainer button {
+		color: white;
+		background-color: white;
+		border: none;
+	}
+
+	.rpsContainer li {
+		display: inline-block;
+		width: 15%;
+	}
+
+	.rpsElement {
+		width: 100%;
+		position: relative;
+		display: inline-block;
+		flex-wrap: nowrap;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+}
+
+.frogsContainer {
+	margin: 5px;
+}
+
+.statsElement {
+	margin: 10px;
+}
+
+footer {
+	text-align: center;
+}
